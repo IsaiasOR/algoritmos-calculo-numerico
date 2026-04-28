@@ -18,11 +18,11 @@ Hasta el momento, el proyecto incluye los siguientes algoritmos:
 Cada algoritmo se ejecuta desde la raíz del proyecto con Python, por ejemplo:
 
 ```bash
-python sel_metodos_directos/gauss.py
-python sel_metodos_directos/gauus_jordan.py
-python sel_metodos_directos/lu.py
-python sel_metodos_iterativos/jacobi.py
-python sel_metodos_iterativos/gauss_seidel.py
+python -m sel_metodos_directos/gauss.py
+python -m sel_metodos_directos/gauss_jordan.py
+python -m sel_metodos_directos/lu.py
+python -m sel_metodos_iterativos/jacobi.py
+python -m sel_metodos_iterativos/gauss_seidel.py
 ```
 
 Al ejecutarlos, el programa solicitará los datos de entrada por consola.
