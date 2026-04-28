@@ -1,7 +1,7 @@
 # Método de Gauus
 # Sistemas de ecuaciones lineales A.X = B
 import numpy as np
-from sel_metodos_iterativos.pivoteo import pivoteo_parcial
+from pivoteo import pivoteo_parcial
 
 # Ingreso de datos
 n = int(input("Ingrese el número de ecuaciones: "))

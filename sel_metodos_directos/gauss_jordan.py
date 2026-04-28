@@ -1,7 +1,7 @@
 # Método de Gauus-Jordan para resolver sistemas de ecuaciones lineales
 # Sistemas de ecuaciones lineales A.X = B
 import numpy as np
-from sel_metodos_iterativos.pivoteo import pivoteo_parcial
+from pivoteo import pivoteo_parcial
 
 def gauss_jordan(AB: np.ndarray) -> np.ndarray:
   tamano = np.shape(AB)

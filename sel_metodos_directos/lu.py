@@ -2,7 +2,7 @@
 # Descomposición de una matriz A en el producto de una matriz triangular inferior L y una matriz triangular superior U
 
 import numpy as np
-from sel_metodos_iterativos.pivoteo import pivoteo_parcial
+from pivoteo import pivoteo_parcial
 
 def lu_decomposicion(AB: np.ndarray) -> list[np.ndarray]:
   print("\n" + "="*70)
