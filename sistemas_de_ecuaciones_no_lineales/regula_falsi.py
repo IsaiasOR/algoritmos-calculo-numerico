@@ -171,7 +171,7 @@ if __name__ == "__main__":
     # main()
 
     print("\n" + "─" * 55)
-    print("  Ejemplo: f(x) = x³ - 3x + 1  en [1, 2]")
+    print("  Ejemplo: f(x) = sen(x) - e**(-x)  en [0.5, 1.0]")
     print("─" * 55)
-    f2: Callable[[float], float] = lambda x: x**3 - 3*x + 1
-    regula_falsi(f2, a=1.0, b=2.0, delta=1e-6, epsilon=1e-10)
+    f2: Callable[[float], float] = lambda x: math.sin(x) - math.exp(-x)
+    regula_falsi(f2, a=0.5, b=1.0, delta=1e-6, epsilon=0.00001, max_iter=10)
