@@ -78,7 +78,7 @@ def biseccion(
         )
 
         # ── Criterios de parada ────────────────────────────────────────────
-        if abs(c - a) <= tolerancia:
+        if abs(f(b)) <= tolerancia:
             convergio = True
             break
 
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     # main()
 
     print("\n" + "─" * 50)
-    print("  Ejemplo: f(x) = x³ - 3x + 1  en [1, 2]")
+    print("  Ejemplo: f(x) = x³ - 17  en [2, 3]")
     print("─" * 50)
-    f2: Callable[[float], float] = lambda x: x**3 - 3*x + 1
-    biseccion(f2, a=1.0, c=2.0, tolerancia=1e-6)
+    f2: Callable[[float], float] = lambda x: x**3 - 17
+    biseccion(f2, a=2.0, c=3.0, tolerancia=0.125, max_iter=10)
