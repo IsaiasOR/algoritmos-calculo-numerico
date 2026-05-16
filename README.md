@@ -6,6 +6,17 @@ Este proyecto reúne implementaciones en Python de métodos para resolver sistem
 
 Hasta el momento, el proyecto incluye los siguientes algoritmos:
 
+### Normas
+
+- Normas vectoriales
+  - Norma suma
+  - Norma euclidiana
+  - Norma infinito (máximo)
+- Normas matriciales
+  - Norma infinito (fila-suma)
+  - Norma columna-suma
+  - Norma de Frobenius
+
 ### Sistemas de ecuaciones lineales - Métodos directos
 
 - Método de Gauss.
@@ -38,7 +49,7 @@ python -m sistemas_de_ecuaciones_lineales.sel_metodos_directos.lu
 python -m sistemas_de_ecuaciones_lineales.sel_metodos_iterativos.jacobi
 python -m sistemas_de_ecuaciones_lineales.sel_metodos_iterativos.gauss_seidel
 python -m sistemas_de_ecuaciones_no_lineales.biseccion
-python -m sistemas_de_ecuaciones_no_lineales.regula_false
+python -m sistemas_de_ecuaciones_no_lineales.regula_falsi
 python -m sistemas_de_ecuaciones_no_lineales.muller
 ```
 
@@ -48,7 +59,6 @@ Al ejecutarlos, el programa solicitará los datos de entrada por consola.
 
 En una siguiente etapa se implementarán los siguientes métodos:
 
-- Cálculo de normas.
 - Iteración de punto fijo.
 - Newton-Raphson.
 - Newton de segundo orden.
@@ -64,4 +74,4 @@ En una siguiente etapa se implementarán los siguientes métodos:
 
 ## Estado actual
 
-El repositorio incluye implementaciones de métodos para resolver sistemas de ecuaciones lineales (métodos directos e iterativos) y algunos métodos de búsqueda de raíces. Se continuará ampliando con nuevos métodos de resolución de ecuaciones no lineales.
+El repositorio incluye implementaciones de algoritmos para calcular normas vectoriales y matriciales, métodos para resolver sistemas de ecuaciones lineales (métodos directos e iterativos) y algunos métodos de búsqueda de raíces. Se continuará ampliando con nuevos métodos de resolución de ecuaciones no lineales.
