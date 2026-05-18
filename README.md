@@ -37,6 +37,10 @@ Hasta el momento, el proyecto incluye los siguientes algoritmos:
 - Bisección.
 - Regula falsi.
 - Método de Müller.
+- Iteración de punto fijo.
+- Newton-Raphson.
+- Newton de segundo orden.
+- Método de la secante de Newton-Lagrange.
 
 ## Cómo ejecutar los algoritmos
 
@@ -55,15 +59,6 @@ python -m sistemas_de_ecuaciones_no_lineales.muller
 
 Al ejecutarlos, el programa solicitará los datos de entrada por consola.
 
-## Algoritmos previstos
-
-En una siguiente etapa se implementarán los siguientes métodos:
-
-- Iteración de punto fijo.
-- Newton-Raphson.
-- Newton de segundo orden.
-- Método de la secante de Newton-Lagrange.
-
 ## Estructura del proyecto
 
 - `sistemas_de_ecuaciones_lineales/`: métodos para resolver sistemas lineales.
@@ -74,4 +69,4 @@ En una siguiente etapa se implementarán los siguientes métodos:
 
 ## Estado actual
 
-El repositorio incluye implementaciones de algoritmos para calcular normas vectoriales y matriciales, métodos para resolver sistemas de ecuaciones lineales (métodos directos e iterativos) y algunos métodos de búsqueda de raíces. Se continuará ampliando con nuevos métodos de resolución de ecuaciones no lineales.
+El repositorio incluye implementaciones de algoritmos para calcular normas vectoriales y matriciales, métodos para resolver sistemas de ecuaciones lineales (métodos directos e iterativos) y métodos de búsqueda de raíces.
