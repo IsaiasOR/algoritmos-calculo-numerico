@@ -31,6 +31,7 @@ Hasta el momento, el proyecto incluye los siguientes algoritmos:
 ### Interpolación y aproximación
 
 - Interpolación de Lagrange.
+- Aproximación por mínimos cuadrados.
 
 ### Utilidades
 
@@ -59,6 +60,8 @@ python -m sistemas_de_ecuaciones_lineales.sel_metodos_iterativos.gauss_seidel
 python -m sistemas_de_ecuaciones_no_lineales.biseccion
 python -m sistemas_de_ecuaciones_no_lineales.regula_falsi
 python -m sistemas_de_ecuaciones_no_lineales.muller
+python -m interpolacion_aproximacion.lagrange
+python -m interpolacion_aproximacion.minimos_cuadrados
 ```
 
 Al ejecutarlos, el programa solicitará los datos de entrada por consola.
@@ -74,4 +77,4 @@ Al ejecutarlos, el programa solicitará los datos de entrada por consola.
 
 ## Estado actual
 
-El repositorio incluye implementaciones de algoritmos para calcular normas vectoriales y matriciales, métodos para resolver sistemas de ecuaciones lineales (métodos directos e iterativos), métodos de búsqueda de raíces y algoritmos de interpolación (Lagrange).
+El repositorio incluye implementaciones de algoritmos para calcular normas vectoriales y matriciales, métodos para resolver sistemas de ecuaciones lineales (métodos directos e iterativos), métodos de búsqueda de raíces, algoritmos de interpolación (Lagrange) y aproximación (mínimos cuadrados).
