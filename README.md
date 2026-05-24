@@ -28,6 +28,10 @@ Hasta el momento, el proyecto incluye los siguientes algoritmos:
 - Método de Jacobi.
 - Método de Gauss-Seidel.
 
+### Interpolación y aproximación
+
+- Interpolación de Lagrange.
+
 ### Utilidades
 
 - Pivoteo parcial.
@@ -61,6 +65,7 @@ Al ejecutarlos, el programa solicitará los datos de entrada por consola.
 
 ## Estructura del proyecto
 
+- `interpolacion_aproximacion/`: algoritmos de interpolación y aproximación.
 - `sistemas_de_ecuaciones_lineales/`: métodos para resolver sistemas lineales.
   - `sel_metodos_directos/`: métodos directos.
   - `sel_metodos_iterativos/`: métodos iterativos.
@@ -69,4 +74,4 @@ Al ejecutarlos, el programa solicitará los datos de entrada por consola.
 
 ## Estado actual
 
-El repositorio incluye implementaciones de algoritmos para calcular normas vectoriales y matriciales, métodos para resolver sistemas de ecuaciones lineales (métodos directos e iterativos) y métodos de búsqueda de raíces.
+El repositorio incluye implementaciones de algoritmos para calcular normas vectoriales y matriciales, métodos para resolver sistemas de ecuaciones lineales (métodos directos e iterativos), métodos de búsqueda de raíces y algoritmos de interpolación (Lagrange).
