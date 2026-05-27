@@ -41,7 +41,7 @@ def _poly_escalar(p: list[float], k: float) -> list[float]:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  Núcleo: cálculo de coeficientes del polinomio interpolante
+#  Cálculo de coeficientes del polinomio interpolante
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _coeficientes_lagrange(xs: list[float], ys: list[float]) -> list[float]:
@@ -66,7 +66,7 @@ def _coeficientes_lagrange(xs: list[float], ys: list[float]) -> list[float]:
 
 
 def _evaluar_poly(coefs: list[float], x: float) -> float:
-    """Evalúa el polinomio en x usando el esquema de Horner."""
+    """Evalúa el polinomio en x."""
     resultado = 0.0
     for c in reversed(coefs):
         resultado = resultado * x + c
